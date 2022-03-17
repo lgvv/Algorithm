@@ -10,3 +10,15 @@ import Foundation
 print("✅ main")
 
 p92334.run()
+
+
+// 기본 포멧
+//struct problem {
+//    static func run() {
+//        print(p87389.solution(11)) // 2
+//    }
+//
+//    static func solution() {
+//
+//    }
+//}
