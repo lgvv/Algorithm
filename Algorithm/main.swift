@@ -7,5 +7,6 @@
 
 import Foundation
 
-print("Hello, World!")
+print("✅ main")
 
+p92334.run()
