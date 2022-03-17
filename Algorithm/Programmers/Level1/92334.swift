@@ -24,21 +24,21 @@ struct p92334 {
         
         // 로직
         report.forEach { data in
-            let field = data.components(separatedBy: " ")
+            let field = data.components(separatedBy: " ") // 문자열 분리
             
-            if user[field[0]] == nil {
-                user[field[0]] = [field[1]]
+            if user[field[0]] == nil { // user의 key값이 nil이라면
+                user[field[0]] = [field[1]] // 그냥 배열로 바로 넣어줌
                 
-                if ban[field[1]] == nil {
+                if ban[field[1]] == nil { // ban의 value값이 nil이라면
                     ban[field[1]] = 1
-                } else {
+                } else { // ban의 value값이 존재한다면
                     ban[field[1]]! += 1
                 }
                 
-            } else {
+            } else { // user의 key에 대응하면 value값이 존재한다면
                 var value = user[field[0]]!
                 
-                if !value.contains(field[1]) {
+                if !value.contains(field[1]) { // value에 새로운 값이 이미 포함되어 있지 않으면 수행
                     value.append(field[1])
                     user[field[0]] = value
                     
@@ -53,7 +53,7 @@ struct p92334 {
         }
 //        print(ban)
         
-        var ban_id = ban
+        let ban_id = ban // 정지당한 아이디만 추려내는 과정
             .filter { $0.value >= k }
             .map { $0.key }
         
@@ -64,11 +64,11 @@ struct p92334 {
         var count_list = [Int](repeating: 0, count: id_list.count)
         
         user.forEach { data in
-            var count = Set(ban_id).intersection(data.value).count
+            let count = Set(ban_id).intersection(data.value).count // 정지당한 아이디와 user가 신고한 아이디에서 몇개가 겹치는지 찾아서
 //            print("\(data.key) \(count)")
             
-            if let i = id_list.firstIndex(of: data.key) {
-                count_list[i] = count
+            if let i = id_list.firstIndex(of: data.key) { // 키 값에 해당하는 인덱스를 id_list에서 찾아서
+                count_list[i] = count // 카운트 리스트의 자리에다가 값을 넣기
             }
         }
         
