@@ -30,7 +30,7 @@ struct p42889 {
             
             player -= current
             
-            var ratio = Double(current) / Double(player)
+            let ratio = Double(current) / Double(player)
             tuple.append((i, ratio))
         }
         print(tuple)
