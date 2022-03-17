@@ -14,7 +14,7 @@ let k = 2
 
 struct p92334 {
     static func run() {
-        print(p92334.solution(id_list, report, k))
+        print(p92334.solution(id_list, report, k)) // [2,1,1,0]
     }
     static func solution(_ id_list:[String], _ report:[String], _ k:Int) -> [Int] {
         // 유저ID, 유저가 신고한ID
