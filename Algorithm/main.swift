@@ -9,7 +9,7 @@ import Foundation
 
 print("✅ main")
 
-p12922.run()
+p12925.run()
 
 // 기본 포멧
 
