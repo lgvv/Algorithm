@@ -98,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				B1421C2627E1CF2B00F8C451 /* main.swift */,
-				B1EBDF9327E8689500DCB433 /* DongBinNa */,
 				B1ADABD727E1D46600B3C691 /* Programmers */,
 				B1EBDF9727E8A74D00DCB433 /* BaekJoon */,
 			);
@@ -137,21 +136,6 @@
 				B1D7CCD027E61C23004205DE /* 12925.swift */,
 			);
 			path = Level1;
-			sourceTree = "<group>";
-		};
-		B1EBDF9327E8689500DCB433 /* DongBinNa */ = {
-			isa = PBXGroup;
-			children = (
-				B1EBDF9427E8711E00DCB433 /* Chapter03 */,
-			);
-			path = DongBinNa;
-			sourceTree = "<group>";
-		};
-		B1EBDF9427E8711E00DCB433 /* Chapter03 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Chapter03;
 			sourceTree = "<group>";
 		};
 		B1EBDF9727E8A74D00DCB433 /* BaekJoon */ = {
