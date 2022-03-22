@@ -10,7 +10,7 @@ import Foundation
 
 print("✅ main")
 
-b1789.run()
+b13305.run()
 
 // 기본 포멧 - 프로그래머스
 
