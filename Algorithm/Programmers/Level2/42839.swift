@@ -11,7 +11,7 @@ import Foundation
 struct p42839 {
     
     static func run() {
-        print(p42839.solution("4")) // 2
+        print(p42839.solution("4")) // 0
     }
     
     static var results: Set<Int> = []
