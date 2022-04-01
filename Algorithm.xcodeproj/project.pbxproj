@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B1421C2727E1CF2B00F8C451 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1421C2627E1CF2B00F8C451 /* main.swift */; };
+		B14879F127F71F2500ABC35D /* b1932.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14879F027F71F2500ABC35D /* b1932.swift */; };
 		B197A40927F17E1F00D2B6F3 /* 42839.swift in Sources */ = {isa = PBXBuildFile; fileRef = B197A40827F17E1F00D2B6F3 /* 42839.swift */; };
 		B197A40B27F1AA9E00D2B6F3 /* 87946.swift in Sources */ = {isa = PBXBuildFile; fileRef = B197A40A27F1AA9E00D2B6F3 /* 87946.swift */; };
 		B197A40D27F1BF1C00D2B6F3 /* 12941.swift in Sources */ = {isa = PBXBuildFile; fileRef = B197A40C27F1BF1C00D2B6F3 /* 12941.swift */; };
@@ -82,6 +83,7 @@
 /* Begin PBXFileReference section */
 		B1421C2327E1CF2B00F8C451 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1421C2627E1CF2B00F8C451 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B14879F027F71F2500ABC35D /* b1932.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = b1932.swift; sourceTree = "<group>"; };
 		B197A40827F17E1F00D2B6F3 /* 42839.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 42839.swift; sourceTree = "<group>"; };
 		B197A40A27F1AA9E00D2B6F3 /* 87946.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 87946.swift; sourceTree = "<group>"; };
 		B197A40C27F1BF1C00D2B6F3 /* 12941.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12941.swift; sourceTree = "<group>"; };
@@ -213,6 +215,7 @@
 				B1E599D927F5E3AF0065EE89 /* b1149.swift */,
 				B1E599DB27F5E89B0065EE89 /* b2579.swift */,
 				B1E599DD27F6029D0065EE89 /* b11053.swift */,
+				B14879F027F71F2500ABC35D /* b1932.swift */,
 			);
 			path = DP;
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 				B1E599DE27F6029D0065EE89 /* b11053.swift in Sources */,
 				B1EBDF9627E8718B00DCB433 /* b5585.swift in Sources */,
 				B1B6ACA627E9C287003FFD1E /* b10610.swift in Sources */,
+				B14879F127F71F2500ABC35D /* b1932.swift in Sources */,
 				B1ADABE427E3219900B3C691 /* 42889.swift in Sources */,
 				B1F1B8F727E5BBFF00807520 /* 17682.swift in Sources */,
 				B1ADABE227E31F5300B3C691 /* 86051.swift in Sources */,
