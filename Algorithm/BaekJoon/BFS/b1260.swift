@@ -14,7 +14,7 @@ struct b1260 {
         var list = [Int: [Int]]()
         
         for _ in 0..<input[1] {
-            let line = readLine()!.split(separator: " ").map(){Int(String($0))!}
+            let line = readLine()!.split(separator: " ").map{ Int(String($0))! }
             let start = line[0]
             let end = line[1]
             
