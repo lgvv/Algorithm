@@ -7,7 +7,7 @@
 // https://www.acmicpc.net/problem/2667
 import Foundation
 
-struct b2667{
+struct b2667 {
     static func run() {
         let n = Int(readLine()!)!
         
