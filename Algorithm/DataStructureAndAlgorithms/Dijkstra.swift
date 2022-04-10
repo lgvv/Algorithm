@@ -20,7 +20,7 @@ func dijkstra(graph: [String: [String: Int]], start: String) ->  [String: Int] {
     var priorityQueue = MaxHeap(NodePriority.init(node: start, priority: 0))
     
     for key in graph.keys {
-        let value = key == start ? 0 : 2147483647
+        let value = key == start ? 0 : Int(1e9)
         distances.updateValue(value, forKey: key)
     }
     
