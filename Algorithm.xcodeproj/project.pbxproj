@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B11BA9B32809DF0900D26B3C /* 49994.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11BA9B22809DF0900D26B3C /* 49994.swift */; };
 		B1421C2727E1CF2B00F8C451 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1421C2627E1CF2B00F8C451 /* main.swift */; };
 		B14879F127F71F2500ABC35D /* b1932.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14879F027F71F2500ABC35D /* b1932.swift */; };
 		B14879F327F729BD00ABC35D /* b1912.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14879F227F729BD00ABC35D /* b1912.swift */; };
@@ -103,6 +104,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B11BA9B22809DF0900D26B3C /* 49994.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 49994.swift; sourceTree = "<group>"; };
 		B1421C2327E1CF2B00F8C451 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1421C2627E1CF2B00F8C451 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B14879F027F71F2500ABC35D /* b1932.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = b1932.swift; sourceTree = "<group>"; };
@@ -250,6 +252,7 @@
 				B1BC394528068E350036A525 /* 68936.swift */,
 				B1BC39472806AC430036A525 /* 42883.swift */,
 				B1BC39492806CDE90036A525 /* 92341.swift */,
+				B11BA9B22809DF0900D26B3C /* 49994.swift */,
 			);
 			path = Level2;
 			sourceTree = "<group>";
@@ -501,6 +504,7 @@
 				B1ADABE627E341DC00B3C691 /* 12912.swift in Sources */,
 				B1B6AC9C27E9A529003FFD1E /* b1931.swift in Sources */,
 				B1ADABDA27E1D57900B3C691 /* 87389.swift in Sources */,
+				B11BA9B32809DF0900D26B3C /* 49994.swift in Sources */,
 				B14879F527F733E600ABC35D /* b2156.swift in Sources */,
 				B1D57BD227FD440D0030C05F /* 12939.swift in Sources */,
 				B1E599D027F56E460065EE89 /* 12911.swift in Sources */,
