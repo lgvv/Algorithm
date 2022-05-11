@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct kakao5_pass{
+struct kakao5{
     static func run() {
         print(kakao5.solution(
             [[1, 2, 3], [4, 5, 6], [7, 8, 9]],
