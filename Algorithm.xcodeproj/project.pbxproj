@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B1067CD5282A9FDE00BD1C24 /* b1916.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1067CD4282A9FDD00BD1C24 /* b1916.swift */; };
 		B11BA9B32809DF0900D26B3C /* 49994.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11BA9B22809DF0900D26B3C /* 49994.swift */; };
+		B1262B87282D3D0700B9BA2A /* b2805.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1262B86282D3D0700B9BA2A /* b2805.swift */; };
 		B1421C2727E1CF2B00F8C451 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1421C2627E1CF2B00F8C451 /* main.swift */; };
 		B14879F127F71F2500ABC35D /* b1932.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14879F027F71F2500ABC35D /* b1932.swift */; };
 		B14879F327F729BD00ABC35D /* b1912.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14879F227F729BD00ABC35D /* b1912.swift */; };
@@ -124,6 +125,7 @@
 /* Begin PBXFileReference section */
 		B1067CD4282A9FDD00BD1C24 /* b1916.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = b1916.swift; sourceTree = "<group>"; };
 		B11BA9B22809DF0900D26B3C /* 49994.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 49994.swift; sourceTree = "<group>"; };
+		B1262B86282D3D0700B9BA2A /* b2805.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = b2805.swift; sourceTree = "<group>"; };
 		B1421C2327E1CF2B00F8C451 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1421C2627E1CF2B00F8C451 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B14879F027F71F2500ABC35D /* b1932.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = b1932.swift; sourceTree = "<group>"; };
@@ -358,6 +360,7 @@
 				B1ADDE09282CDCC700E1A09F /* b12738.swift */,
 				B1ADDE0D282CF70B00E1A09F /* b7453.swift */,
 				B1D233EE282D21A000C38283 /* b1920.swift */,
+				B1262B86282D3D0700B9BA2A /* b2805.swift */,
 			);
 			path = BinarySearch;
 			sourceTree = "<group>";
@@ -549,6 +552,7 @@
 				B1ADABE227E31F5300B3C691 /* 86051.swift in Sources */,
 				B1CBA6BA28006F7D00648214 /* MaxHeap.swift in Sources */,
 				B19E0CA027E399E500786A55 /* 12926.swift in Sources */,
+				B1262B87282D3D0700B9BA2A /* b2805.swift in Sources */,
 				B1D57BD427FD44E30030C05F /* 86971.swift in Sources */,
 				B1BC394A2806CDE90036A525 /* 92341.swift in Sources */,
 				B19BF43C27F3151A00E9A7F9 /* b16926.swift in Sources */,
