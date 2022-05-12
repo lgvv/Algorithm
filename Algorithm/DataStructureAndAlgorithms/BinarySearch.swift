@@ -48,6 +48,7 @@ func binarySearchForDescending<T: Comparable>(array: [T], item: T) -> Int {
 }
 
 //https://icksw.tistory.com/27
+// 속도아 아래 알고리즘이 제일 빨랐습니다. 백준 1920번 기준
 /// 이진 탐색 입니다. 아이템이 들어 있으면 1 없으면 0을 반환합니다.
 func binarySearch(_ firstArray: [Int], _ temp: Int) -> Int {
     if temp < firstArray[0] {
