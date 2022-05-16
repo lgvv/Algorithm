@@ -136,7 +136,7 @@ func kruskalValue(vertices: [String], edges: [(Int, String, String)]) -> Int {
 
 
 // https://icksw.tistory.com/97
-/// graph는 2차원 배열이며 각 원소는 [시작, 끝, 코스트]입니다. edgeCount는 간선의 개수입니다.
+/// graph는 2차원 배열이며 각 원소는 [시작, 끝, 코스트]입니다. edgeCount는 정점의 개수입니다.
 func kruskalSingle(graph: inout [[Int]], edgeCount: Int) -> Int {
     // 부모 노드를 찾는 함수
     func getParent(_ array: inout [Int], _ index: Int) -> Int {
@@ -196,3 +196,65 @@ func kruskalSingle(graph: inout [[Int]], edgeCount: Int) -> Int {
     return result
 }
 
+//https://www.acmicpc.net/problem/1647
+/// 크루스칼 알고리즘을 사용하여 최소 신장 트리를 2개로 나누고, 나눈 최소값을 반환합니다.
+func kruskalDivide(graph: inout [[Int]], edgeCount: Int) -> Int {
+    // 부모 노드를 찾는 함수
+    func getParent(_ array: inout [Int], _ index: Int) -> Int {
+        
+        if array[index] == index {
+            return index
+        } else {
+            array[index] = getParent(&array, array[index])
+            return array[index]
+        }
+    }
+    
+    
+    // 부모 노드를 합치는 함수
+    func unionParent( _ array: inout [Int], _ a: Int, _ b: Int) {
+        let num1 = getParent(&array, a)
+        let num2 = getParent(&array, b)
+        
+        if a < b {
+            array[num2] = num1
+        } else {
+            array[num1] = num2
+        }
+    }
+    
+    var result: Int = 0
+    var parentNodeTable: [Int] = []
+    
+    // 추가된 간선 수
+    var lines: Int = 0
+    
+    // 간선을 가중치 순으로 나열 - 오름차순 정렬
+    graph.sort { (a, b) -> Bool in
+        return a[2] < b[2]
+    }
+    
+    // 부모 테이블 초기 셋팅
+    for i in 0...edgeCount{
+        parentNodeTable.append(i)
+    }
+    
+    var last = 0
+    for index in 0..<graph.count{
+        
+        // 추가된 간선수가 정점 수 - 1이면 반복 중단
+        if lines == edgeCount - 1{ break }
+        
+        // 만약 부모가 다르다면 사이클을 발생하지 않기 때문에 간선 추가
+        if getParent(&parentNodeTable, graph[index][0]) != getParent(&parentNodeTable, graph[index][1]) {
+            result += graph[index][2]
+            last = graph[index][2]
+            lines += 1
+            
+            // 부모 노드 합침
+            unionParent(&parentNodeTable, graph[index][0], graph[index][1])
+        }
+    }
+    
+    return result - last
+}
