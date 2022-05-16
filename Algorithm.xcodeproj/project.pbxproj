@@ -66,6 +66,8 @@
 		B1BC39482806AC430036A525 /* 42883.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BC39472806AC430036A525 /* 42883.swift */; };
 		B1BC394A2806CDE90036A525 /* 92341.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BC39492806CDE90036A525 /* 92341.swift */; };
 		B1CBA6BA28006F7D00648214 /* MaxHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CBA6B928006F7D00648214 /* MaxHeap.swift */; };
+		B1D0DA282831EB3800E2D533 /* b1197.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D0DA272831EB3800E2D533 /* b1197.swift */; };
+		B1D0DA2A2831F59000E2D533 /* Kruskal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D0DA292831F59000E2D533 /* Kruskal.swift */; };
 		B1D233EF282D21A000C38283 /* b1920.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D233EE282D21A000C38283 /* b1920.swift */; };
 		B1D57BD227FD440D0030C05F /* 12939.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D57BD127FD440D0030C05F /* 12939.swift */; };
 		B1D57BD427FD44E30030C05F /* 86971.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D57BD327FD44E30030C05F /* 86971.swift */; };
@@ -185,6 +187,8 @@
 		B1BC39472806AC430036A525 /* 42883.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 42883.swift; sourceTree = "<group>"; };
 		B1BC39492806CDE90036A525 /* 92341.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 92341.swift; sourceTree = "<group>"; };
 		B1CBA6B928006F7D00648214 /* MaxHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxHeap.swift; sourceTree = "<group>"; };
+		B1D0DA272831EB3800E2D533 /* b1197.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = b1197.swift; sourceTree = "<group>"; };
+		B1D0DA292831F59000E2D533 /* Kruskal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kruskal.swift; sourceTree = "<group>"; };
 		B1D233EE282D21A000C38283 /* b1920.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = b1920.swift; sourceTree = "<group>"; };
 		B1D57BD127FD440D0030C05F /* 12939.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12939.swift; sourceTree = "<group>"; };
 		B1D57BD327FD44E30030C05F /* 86971.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 86971.swift; sourceTree = "<group>"; };
@@ -378,6 +382,14 @@
 			path = Implementation;
 			sourceTree = "<group>";
 		};
+		B1D0DA262831E91100E2D533 /* MinimumSpanningTree */ = {
+			isa = PBXGroup;
+			children = (
+				B1D0DA272831EB3800E2D533 /* b1197.swift */,
+			);
+			path = MinimumSpanningTree;
+			sourceTree = "<group>";
+		};
 		B1DD0DEB2826322F005E4AA4 /* CodingTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -418,6 +430,7 @@
 				B192D6A62801CEE50048C2A7 /* Dijkstra.swift */,
 				B192D6A82801F1230048C2A7 /* FloydWarshall.swift */,
 				B1ADDE0B282CF65F00E1A09F /* BinarySearch.swift */,
+				B1D0DA292831F59000E2D533 /* Kruskal.swift */,
 			);
 			path = DataStructureAndAlgorithms;
 			sourceTree = "<group>";
@@ -435,6 +448,7 @@
 		B1EBDF9727E8A74D00DCB433 /* BaekJoon */ = {
 			isa = PBXGroup;
 			children = (
+				B1D0DA262831E91100E2D533 /* MinimumSpanningTree */,
 				B1ADDE06282CC12E00E1A09F /* BinarySearch */,
 				B1E5F12227FC9A9700D37D1A /* Dijkstra */,
 				B1E1D34D27F8177D00075404 /* BFS */,
@@ -528,6 +542,7 @@
 				B1F1B8F527E5AD0500807520 /* 17681.swift in Sources */,
 				B19BF43927F30FD600E9A7F9 /* 12945.swift in Sources */,
 				B192D6A72801CEE50048C2A7 /* Dijkstra.swift in Sources */,
+				B1D0DA2A2831F59000E2D533 /* Kruskal.swift in Sources */,
 				B14879F727F7712D00ABC35D /* b2748.swift in Sources */,
 				B1B6ACAA27E9D406003FFD1E /* b13305.swift in Sources */,
 				B1E599CE27F55FB80065EE89 /* 12913.swift in Sources */,
@@ -620,6 +635,7 @@
 				B1ADDE0C282CF65F00E1A09F /* BinarySearch.swift in Sources */,
 				B1E49B2927F4C4560097AC36 /* 17687.swift in Sources */,
 				B1E599DC27F5E89B0065EE89 /* b2579.swift in Sources */,
+				B1D0DA282831EB3800E2D533 /* b1197.swift in Sources */,
 				B1DC747627FA7F9600844BB6 /* b1697.swift in Sources */,
 				B1ADABDC27E2EF1400B3C691 /* 92334.swift in Sources */,
 				B1B6AC9A27E9A036003FFD1E /* b11047.swift in Sources */,
