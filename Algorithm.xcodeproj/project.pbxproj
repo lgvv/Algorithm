@@ -69,6 +69,7 @@
 		B1D0DA282831EB3800E2D533 /* b1197.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D0DA272831EB3800E2D533 /* b1197.swift */; };
 		B1D0DA2A2831F59000E2D533 /* Kruskal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D0DA292831F59000E2D533 /* Kruskal.swift */; };
 		B1D0DA2C283208D500E2D533 /* b1647.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D0DA2B283208D500E2D533 /* b1647.swift */; };
+		B1D11410283BD43D00A93EE3 /* b2252.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D1140F283BD43D00A93EE3 /* b2252.swift */; };
 		B1D233EF282D21A000C38283 /* b1920.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D233EE282D21A000C38283 /* b1920.swift */; };
 		B1D57BD227FD440D0030C05F /* 12939.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D57BD127FD440D0030C05F /* 12939.swift */; };
 		B1D57BD427FD44E30030C05F /* 86971.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D57BD327FD44E30030C05F /* 86971.swift */; };
@@ -195,6 +196,7 @@
 		B1D0DA272831EB3800E2D533 /* b1197.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = b1197.swift; sourceTree = "<group>"; };
 		B1D0DA292831F59000E2D533 /* Kruskal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kruskal.swift; sourceTree = "<group>"; };
 		B1D0DA2B283208D500E2D533 /* b1647.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = b1647.swift; sourceTree = "<group>"; };
+		B1D1140F283BD43D00A93EE3 /* b2252.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = b2252.swift; sourceTree = "<group>"; };
 		B1D233EE282D21A000C38283 /* b1920.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = b1920.swift; sourceTree = "<group>"; };
 		B1D57BD127FD440D0030C05F /* 12939.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12939.swift; sourceTree = "<group>"; };
 		B1D57BD327FD44E30030C05F /* 86971.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 86971.swift; sourceTree = "<group>"; };
@@ -405,6 +407,14 @@
 			path = MinimumSpanningTree;
 			sourceTree = "<group>";
 		};
+		B1D1140E283BD41C00A93EE3 /* TopologicalSorting */ = {
+			isa = PBXGroup;
+			children = (
+				B1D1140F283BD43D00A93EE3 /* b2252.swift */,
+			);
+			path = TopologicalSorting;
+			sourceTree = "<group>";
+		};
 		B1DD0DEB2826322F005E4AA4 /* CodingTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -463,6 +473,7 @@
 		B1EBDF9727E8A74D00DCB433 /* BaekJoon */ = {
 			isa = PBXGroup;
 			children = (
+				B1D1140E283BD41C00A93EE3 /* TopologicalSorting */,
 				B1D0DA262831E91100E2D533 /* MinimumSpanningTree */,
 				B1ADDE06282CC12E00E1A09F /* BinarySearch */,
 				B1E5F12227FC9A9700D37D1A /* Dijkstra */,
@@ -626,6 +637,7 @@
 				B19BF43327F2C13700E9A7F9 /* 12981.swift in Sources */,
 				B1B6AC9827E99C2B003FFD1E /* b11399.swift in Sources */,
 				B1B6ACA227E9BB0C003FFD1E /* b2217.swift in Sources */,
+				B1D11410283BD43D00A93EE3 /* b2252.swift in Sources */,
 				B1B6ACA027E9B4CA003FFD1E /* b1541.swift in Sources */,
 				B1ADDE0E282CF70B00E1A09F /* b7453.swift in Sources */,
 				B1E49B2327F46E8F0097AC36 /* 92335.swift in Sources */,

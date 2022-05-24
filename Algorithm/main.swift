@@ -9,8 +9,7 @@
 import Foundation
 
 print("✅ main")
-
-b23034.run()
+b2252.run()
 //Kruskal_Module.run()
 
 // 기본 포멧 - 프로그래머스
