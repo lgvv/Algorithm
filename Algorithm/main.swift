@@ -9,7 +9,10 @@
 import Foundation
 
 print("✅ main")
-p62048.run()
+//boost1.run()
+//Toss1.run()
+Hyundai.run()
+
 //Kruskal_Module.run()
 
 // 기본 포멧 - 프로그래머스
