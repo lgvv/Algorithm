@@ -9,13 +9,11 @@
 import Foundation
 
 print("✅ main")
-//boost1.run()
-//Toss1.run()
-Hyundai.run()
 
+// MARK: - 실행부
 //Kruskal_Module.run()
 
-// 기본 포멧 - 프로그래머스
+// MARK: - 기본 템플릿(프로그래머스)
 
 //struct problem {
 //    static func run() {
@@ -27,7 +25,7 @@ Hyundai.run()
 //    }
 //}
 
-// 기본 포멧 - 백준
+// MARK: - 기본 템플릿(백준)
 
 //struct b5585 {
 //    static func run() {
